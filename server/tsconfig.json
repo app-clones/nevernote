@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "lib": ["DOM", "es5", "es6", "ES2017", "ESNext.AsyncIterable"],
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": false,
+
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+
+        "skipLibCheck": true,
+        "sourceMap": true
+    }
+}
