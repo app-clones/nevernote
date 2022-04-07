@@ -15,7 +15,7 @@ import {
     generateAccessToken,
     generateRefreshToken
 } from "../helpers/generateToken";
-import { Error } from "../helpers/Error";
+import { Error as ErrorResponse } from "../helpers/Error";
 
 import { MyContext } from "../types/context";
 
@@ -29,8 +29,8 @@ class LoginResponse {
     @Field(() => String, { nullable: true })
     refreshToken?: string;
 
-    @Field(() => Error, { nullable: true })
-    error?: Error;
+    @Field(() => ErrorResponse, { nullable: true })
+    error?: ErrorResponse;
 }
 
 @ObjectType()
@@ -38,8 +38,8 @@ class RegisterResponse {
     @Field(() => Boolean, { nullable: true })
     success?: boolean;
 
-    @Field(() => Error, { nullable: true })
-    error?: Error;
+    @Field(() => ErrorResponse, { nullable: true })
+    error?: ErrorResponse;
 }
 
 @Resolver()

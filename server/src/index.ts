@@ -21,7 +21,7 @@ AppDataSource.initialize()
     .then(async () => {
         const app = express();
 
-        app.use(cors());
+        app.use(cors({ origin: "http://localhost:3000", credentials: true }));
         app.use(morgan("dev"));
 
         app.get("/", (_, res) => {
@@ -35,7 +35,7 @@ AppDataSource.initialize()
         });
 
         await apolloServer.start();
-        apolloServer.applyMiddleware({ app });
+        apolloServer.applyMiddleware({ app, cors: false });
 
         app.listen(PORT, () =>
             console.log(`Server running on port http://localhost:${PORT}`)
