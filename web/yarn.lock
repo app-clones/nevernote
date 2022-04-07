@@ -1651,7 +1651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/css@npm:^11.7.1":
+"@emotion/css@npm:^11.9.0":
   version: 11.9.0
   resolution: "@emotion/css@npm:11.9.0"
   dependencies:
@@ -1692,7 +1692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.8.2":
+"@emotion/react@npm:^11.9.0":
   version: 11.9.0
   resolution: "@emotion/react@npm:11.9.0"
   dependencies:
@@ -14566,8 +14566,8 @@ __metadata:
   resolution: "web@workspace:."
   dependencies:
     "@apollo/client": ^3.5.10
-    "@emotion/css": ^11.7.1
-    "@emotion/react": ^11.8.2
+    "@emotion/css": ^11.9.0
+    "@emotion/react": ^11.9.0
     "@emotion/styled": ^11.8.1
     "@graphql-codegen/cli": 2.6.2
     "@graphql-codegen/typescript": 2.4.8
