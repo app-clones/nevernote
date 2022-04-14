@@ -3322,6 +3322,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "@types/react-dom@npm:18.0.1"
+  dependencies:
+    "@types/react": "*"
+  checksum: 6c183e2e50240b77ed767cd968fe061ef4f2b47f84da5ec9e412a767d68c9a004d1f6ccca4295a5aa2c3ee723377e59006a2031f3767c00d8ac9e240a51bb142
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*":
   version: 17.0.43
   resolution: "@types/react@npm:17.0.43"
@@ -14590,7 +14599,7 @@ __metadata:
     "@types/jest": ^27.4.1
     "@types/node": ^17.0.23
     "@types/react": ^18.0.5
-    "@types/react-dom": ^18.0.0
+    "@types/react-dom": ^18.0.1
     dayjs: ^1.11.0
     graphql: ^16.3.0
     jwt-decode: ^3.1.2
