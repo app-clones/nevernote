@@ -27,9 +27,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:^3.6.0":
-  version: 3.6.0
-  resolution: "@apollo/client@npm:3.6.0"
+"@apollo/client@npm:^3.6.1":
+  version: 3.6.1
+  resolution: "@apollo/client@npm:3.6.1"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/context": ^0.6.0
@@ -56,7 +56,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: a57bb742dd358f914bb50e10478d25fc48e301beeb605aa5bee4ed23adceac084508b0aacb7ca1002ab50d601b3762bf6742b1241a7bbb4c88e7bb25832a0557
+  checksum: 608ee7a46e02cbf8212b4e8825cf58e96bb45c035f82308aff898c94f5415db50fe718eb5637ab880982f46fa96a5e08b77c510d3ef60853171ccdeb7c2a957e
   languageName: node
   linkType: hard
 
@@ -14595,7 +14595,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:."
   dependencies:
-    "@apollo/client": ^3.6.0
+    "@apollo/client": ^3.6.1
     "@emotion/css": ^11.9.0
     "@emotion/react": ^11.9.0
     "@emotion/styled": ^11.8.1
