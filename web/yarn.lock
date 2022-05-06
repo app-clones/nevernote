@@ -5849,10 +5849,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.1":
-  version: 1.11.1
-  resolution: "dayjs@npm:1.11.1"
-  checksum: d5fefd79935f64a3c262e67af7ebeca180bc402b3e99be4e12d20b6d438af3f86d507ba1cbaff95dc0b4e67f1067cea3eaf37b6b74f5494fdd4a6a2909514cd1
+"dayjs@npm:^1.11.2":
+  version: 1.11.2
+  resolution: "dayjs@npm:1.11.2"
+  checksum: 78f8bd04a9e5f5554aa06eacda65a7d59e162d39f621a46fd34fb3b51367c3662426d86b4e2f4ac535f81e0c4d5af3e8a83b37e672412eb556267d726c61f8f3
   languageName: node
   linkType: hard
 
@@ -14627,7 +14627,7 @@ __metadata:
     "@types/node": ^17.0.23
     "@types/react": ^18.0.8
     "@types/react-dom": ^18.0.3
-    dayjs: ^1.11.1
+    dayjs: ^1.11.2
     graphql: ^16.4.0
     jwt-decode: ^3.1.2
     local-storage-fallback: ^4.1.2
