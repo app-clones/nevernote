@@ -225,7 +225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/node-pre-gyp@npm:^1.0.8":
+"@mapbox/node-pre-gyp@npm:^1.0.9":
   version: 1.0.9
   resolution: "@mapbox/node-pre-gyp@npm:1.0.9"
   dependencies:
@@ -845,14 +845,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"argon2@npm:^0.28.5":
-  version: 0.28.5
-  resolution: "argon2@npm:0.28.5"
+"argon2@npm:^0.28.7":
+  version: 0.28.7
+  resolution: "argon2@npm:0.28.7"
   dependencies:
-    "@mapbox/node-pre-gyp": ^1.0.8
+    "@mapbox/node-pre-gyp": ^1.0.9
     "@phc/format": ^1.0.0
-    node-addon-api: ^4.3.0
-  checksum: cd565f61dd0af549a541b5e5d66528e2eee28dd9c960451b7d8b720079dd1ba6085b0bc5708fa2c6ad5923c0f62371c57ed716327c936ab14656b1badccde421
+    node-addon-api: ^5.0.0
+  checksum: 047b777e920127c59eab58a99373a90847e35ccd0a5426c17d905ace57dad83131a6b3b33b4996f7c94c13f115794ba8421012d44d0b24a61b06b8f5b76aa312
   languageName: node
   linkType: hard
 
@@ -2577,7 +2577,7 @@ __metadata:
     "@types/node": ^17.0.23
     apollo-server-core: ^3.9.0
     apollo-server-express: ^3.9.0
-    argon2: ^0.28.5
+    argon2: ^0.28.7
     cors: ^2.8.5
     dotenv-safe: ^8.2.0
     express: ^4.18.1
@@ -2594,12 +2594,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"node-addon-api@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "node-addon-api@npm:4.3.0"
+"node-addon-api@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "node-addon-api@npm:5.0.0"
   dependencies:
     node-gyp: latest
-  checksum: 3de396e23cc209f539c704583e8e99c148850226f6e389a641b92e8967953713228109f919765abc1f4355e801e8f41842f96210b8d61c7dcc10a477002dcf00
+  checksum: 7c5e2043ac37f6108784d94ed73a44ae6d3e68eb968de60680922fc6bc3d17fa69448c0feb4e0c9d3f4c74a0324822e566a8340a56916d9d6f23cb3e85620334
   languageName: node
   linkType: hard
 
