@@ -9,5 +9,6 @@
         "**/node_modules": true,
         "**/.yarn": true,
         "**/yarn.lock": true
-    }
+    },
+    "cSpell.words": ["Evernote", "Nevernote", "Signup"]
 }
