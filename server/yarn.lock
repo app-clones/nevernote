@@ -249,9 +249,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/node-pre-gyp@npm:^1.0.9":
-  version: 1.0.9
-  resolution: "@mapbox/node-pre-gyp@npm:1.0.9"
+"@mapbox/node-pre-gyp@npm:^1.0.10":
+  version: 1.0.10
+  resolution: "@mapbox/node-pre-gyp@npm:1.0.10"
   dependencies:
     detect-libc: ^2.0.0
     https-proxy-agent: ^5.0.0
@@ -264,7 +264,7 @@ __metadata:
     tar: ^6.1.11
   bin:
     node-pre-gyp: bin/node-pre-gyp
-  checksum: 1b9c4c87a68d200daa13151d0fe033aa7aa8f7b26f3585255424dd8dfee2ec672c3e9bea4071c624469bc0aebbbcde08f8a300c8a958db52c50abadd5fb56920
+  checksum: 1a98db05d955b74dad3814679593df293b9194853698f3f5f1ed00ecd93128cdd4b14fb8767fe44ac6981ef05c23effcfdc88710e7c1de99ccb6f647890597c8
   languageName: node
   linkType: hard
 
@@ -842,14 +842,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"argon2@npm:^0.29.1":
-  version: 0.29.1
-  resolution: "argon2@npm:0.29.1"
+"argon2@npm:^0.30.1":
+  version: 0.30.1
+  resolution: "argon2@npm:0.30.1"
   dependencies:
-    "@mapbox/node-pre-gyp": ^1.0.9
+    "@mapbox/node-pre-gyp": ^1.0.10
     "@phc/format": ^1.0.0
     node-addon-api: ^5.0.0
-  checksum: 91082769fc145e34689dd56fd743e17e0910b153ef13e22898a42f5c069b15a488fa27c239b4f3dbd38357eacddb2b1ad43532a78eb633f6bbe4dcde4cc93c53
+  checksum: 5e3de674b6da80d88eefd5eea4218a408b27754cd51a7186182de55556aa2199d8384047efcb7c3ed410f987670ea43a1bf3388a2f63e2a8b017e89b3d3f8cdb
   languageName: node
   linkType: hard
 
@@ -2299,7 +2299,7 @@ __metadata:
     "@types/node": ^18.7.15
     apollo-server-core: ^3.10.3
     apollo-server-express: ^3.10.3
-    argon2: ^0.29.1
+    argon2: ^0.30.1
     cors: ^2.8.5
     dotenv-safe: ^8.2.0
     express: ^4.18.2
