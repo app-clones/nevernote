@@ -843,14 +843,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"argon2@npm:^0.30.1":
-  version: 0.30.1
-  resolution: "argon2@npm:0.30.1"
+"argon2@npm:^0.30.2":
+  version: 0.30.2
+  resolution: "argon2@npm:0.30.2"
   dependencies:
     "@mapbox/node-pre-gyp": ^1.0.10
     "@phc/format": ^1.0.0
     node-addon-api: ^5.0.0
-  checksum: 5e3de674b6da80d88eefd5eea4218a408b27754cd51a7186182de55556aa2199d8384047efcb7c3ed410f987670ea43a1bf3388a2f63e2a8b017e89b3d3f8cdb
+  checksum: 5b0d680d2bb482ed5f46ae2933ff2dc5c1d5d2a984a5c81c63cb311b55a5f67393e2b6da1adf4a1342e146580dd3f888a695d1c56834df710a141c62e9f73ef7
   languageName: node
   linkType: hard
 
@@ -2300,7 +2300,7 @@ __metadata:
     "@types/node": ^18.11.9
     apollo-server-core: ^3.11.1
     apollo-server-express: ^3.11.1
-    argon2: ^0.30.1
+    argon2: ^0.30.2
     cors: ^2.8.5
     dotenv-safe: ^8.2.0
     express: ^4.18.2
