@@ -32,5 +32,5 @@
         "start:db": "docker-compose up",
         "typeorm": "typeorm-ts-node-commonjs"
     },
-    "packageManager": "yarn@3.2.4"
+    "packageManager": "yarn@3.3.0"
 }
