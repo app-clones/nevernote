@@ -5,7 +5,7 @@
     "type": "commonjs",
     "license": "MIT",
     "devDependencies": {
-        "@types/jsonwebtoken": "^8.5.9",
+        "@types/jsonwebtoken": "^9.0.0",
         "@types/morgan": "^1.9.3",
         "@types/node": "^18.11.17",
         "nodemon": "^2.0.20",
