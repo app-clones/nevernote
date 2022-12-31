@@ -6,7 +6,7 @@
     "license": "MIT",
     "devDependencies": {
         "@types/jsonwebtoken": "^9.0.0",
-        "@types/morgan": "^1.9.3",
+        "@types/morgan": "^1.9.4",
         "@types/node": "^18.11.18",
         "nodemon": "^2.0.20",
         "ts-node": "10.9.1",
